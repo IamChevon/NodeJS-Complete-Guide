@@ -15,8 +15,7 @@ const summarizeUser = (userName, userAge, useHasHobbies) => {
 }
 
 
-// arrow functions can be written
-//  without return statement if 
+// arrow functions can be written without return statement if 
 // the instruction is only one line long
 const add = (a, b) => a + b;
 
