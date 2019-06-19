@@ -2,27 +2,16 @@ const express = require('express');
 
 const bodyParser = require('body-parser');
 const app = express();
-
-/* 1. handling routes/paths
-   2. Parsing request body
-   3. Limit middleware execution to request type
-*/
+const adminRoutes = require('./routes/admin');
+const shopRoutes = require('./routes/shop');
 
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use('/add-product', (req, res, next) => {
-    console.log('add-product');    
-    res.send('<form action="product" method="POST"><input type="text" name="title"/><button type="submit">Add</button></form>')
-});
+app.use(adminRoutes);
+app.use(shopRoutes);
 
-app.post('/product', (req, res, next) => {
-    console.log(req.body);
-    res.redirect('/')
-});
-
-app.use('/', (req, res, next) => {
-    console.log('first middleware');    
-    res.send('<p>Hello from home!</p>')
+app.use((req, res, next) => {
+    res.status(404).send('<h1>Page not found</h1>');
 });
 
 app.listen(3000);
