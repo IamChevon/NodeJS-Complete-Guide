@@ -37,6 +37,7 @@ node_modules/
 debug/node_modules/
 express/node_modules/
 jspm_packages/
+template-engines/node_modules/
 
 # TypeScript v1 declaration files
 typings/
