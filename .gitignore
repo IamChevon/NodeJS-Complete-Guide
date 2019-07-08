@@ -38,6 +38,7 @@ debug/node_modules/
 express/node_modules/
 jspm_packages/
 template-engines/node_modules/
+mvc/node_modules
 
 # TypeScript v1 declaration files
 typings/
@@ -64,4 +65,4 @@ typings/
 .next
 
 #vscode debug config
-.vscode
+.vscode/
