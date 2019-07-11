@@ -40,6 +40,7 @@ jspm_packages/
 template-engines/node_modules/
 mvc/node_modules/
 dynamic-routes/node_modules/
+sql-introduction/node_modules/
 
 # TypeScript v1 declaration files
 typings/
