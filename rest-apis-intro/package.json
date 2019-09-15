@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-intro",
+  "version": "1.0.0",
+  "description": "Rest API Intro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Chevon Williams",
+  "license": "ISC",
+  "keywords": [
+    "Rest",
+    "API",
+    "Node"
+  ]
+}
