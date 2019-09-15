@@ -42,6 +42,7 @@ mvc/node_modules/
 dynamic-routes/node_modules/
 sql-introduction/node_modules/
 sequelize/node_modules/
+rest-apis-intro/node_modules/
 
 # TypeScript v1 declaration files
 typings/
