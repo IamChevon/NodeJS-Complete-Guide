@@ -17,6 +17,9 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# production
+/build
+
 # nyc test coverage
 .nyc_output
 
@@ -43,6 +46,7 @@ dynamic-routes/node_modules/
 sql-introduction/node_modules/
 sequelize/node_modules/
 rest-apis-intro/node_modules/
+rest-api/node_modules/
 
 # TypeScript v1 declaration files
 typings/
